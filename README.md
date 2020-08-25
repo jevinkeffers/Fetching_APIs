@@ -1,29 +1,28 @@
 ## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
+Learning to pull API's with Chuck Norris jokes. 
 
-## Decription
+<!-- ## Decription
 A little more description of what the project is about 
 
 ## Motivation
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
 
-## Challenges and Solutions
+## Challenges and Solutions -->
 
 ## Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. - 
+Will add functionality at a later time. 
 
-[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
+<!-- [![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master) -->
 
 ## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
+HTML, CSS, JavaScript pulling from API's
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
 ## Screenshots
-Include logo/demo screenshot etc.
+![Chuck Norris](https://raw.githubusercontent.com/jevinkeffers/Fetching_APIs/master/images/Screen%20Shot%202020-08-25%20at%209.55.54%20AM.jpg "Chuck Norris facts")
 
-## Tech/framework used
+<!-- ## Tech/framework used
 Ex. -
 
 <b>Built with</b>
@@ -60,4 +59,4 @@ Give proper credits. This could be a link to any repo which inspired you to buil
 ## License
 A short snippet describing the license (MIT, Apache etc)
 
-MIT © [Yourname]()
+MIT © [Yourname]() -->
