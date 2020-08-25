@@ -3,7 +3,23 @@
 }
 
 html {
-    font-size: 24px;
+    font-size: 20px;
+    background-color: #EEFF7B;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 60rem;
+    width: 100%;
+}
+
+.img-wrapper {
+    width: 100%;
+}
+
+.img-wrapper img {
+    height: auto;
+    width: 100%;
 }
 
 body {
@@ -11,14 +27,51 @@ body {
     margin: 4%;
     padding: 0;
     font-family: 'Russo One', sans-serif;
-    background-color: #EEFF7B;
+    color: #2a2a2d;
 }
 
 h1 {
     font-family: 'Russo One', sans-serif;
-    color: #FD00C7
+    color: #FD00C7;
 }
 
 p {
     font-family: 'Dancing Script', cursive;
+}
+
+select {
+    text-transform: capitalize;
+}
+
+.modal-overlay {
+    background-color: rgba(0,0,0,0.7);
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.modal-overlay.open {
+    display: flex;
+}
+
+.modal-close {
+    color: #FD00C7;
+    float: right;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #efefef;
+    border-radius: 6px;
+    margin: auto;
+    max-width: 400px;
+    padding: 8px;
+    position: relative;
+    z-index: 10000;
 }
