@@ -16,9 +16,13 @@ body {
 
 h1 {
     font-family: 'Russo One', sans-serif;
-    color: #FD00C7
+    color: #FD00C7;
 }
 
 p {
     font-family: 'Dancing Script', cursive;
+}
+
+select {
+    text-transform: capitalize;
 }
