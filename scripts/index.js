@@ -10,7 +10,6 @@ let category = "dev";
 // function getQuote() with lambda syntax
 const getQuote = () => {
     const url = `https://api.chucknorris.io/jokes/random?category=${category}`;
-
     get(url).then(function(fetchResponse) {
         chuckSays.innerHTML = fetchResponse.value;
         modalOverlay.classList.toggle('open');
