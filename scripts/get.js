@@ -12,7 +12,7 @@ function get(url) {
 // Making an asyncronous call
 
 const getWithAwait = async (url) => {
-    const response = await fetch(url); //await replaces the 'then' from above, will only assign it when it's done
+    const response = await fetch(url); 
     const data = await response.json();
     return data;
 }
