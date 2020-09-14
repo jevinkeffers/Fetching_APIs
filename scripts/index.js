@@ -7,30 +7,29 @@ const modalOverlay = document.querySelector('.modal-overlay');
 const modalCloseButton = document.getElementById('closeModal')
 let category = "dev";
 
-// function getQuote() with lambda syntax
-const getQuote = () => {
-    const url = `https://api.chucknorris.io/jokes/random?category=${category}`;
-    get(url).then(function(fetchResponse) {
-        chuckSays.innerHTML = fetchResponse.value;
+const getQuote = async () => {
+    const theQuote = await getWithAwait(url);
+        const url = `https://api.chucknorris.io/jokes/random?category=${category}`;
+        const theQuote = await getWithAwait(url);
+        chuckSays.innerHTML = theQuote.value;
         modalOverlay.classList.toggle('open');
-    });
 }
 
-const getCategories = () => {
+const getCategories = async () => {
     const url = `https://api.chucknorris.io/jokes/categories`;
     const dropdownMenu = document.getElementById("categoryInput");
 
-    get(url).then(function (categoryArray) {
+        const categoryArray = await getWithAwait(url);
         categoryArray.map(function(category) {
             const categoryOption = document.createElement('option');
             if (category !== 'explicit') {
                 categoryOption.value = category;
                 categoryOption.text = category;    
                 dropdownMenu.append(categoryOption);
-            } 
-        })
-    });
-}
+            }
+        });
+    };
+
 
 refreshQuote.addEventListener('click', function(e) {
     e.preventDefault();
