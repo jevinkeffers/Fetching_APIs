@@ -3,13 +3,13 @@
 }
 
 html {
-    font-size: 20px;
+    font-size: 24px;
     background-color: #EEFF7B;
 }
 
 .wrapper {
     margin: 0 auto;
-    max-width: 60rem;
+    max-width: 20rem;
     width: 100%;
 }
 
